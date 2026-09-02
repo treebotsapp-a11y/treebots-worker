@@ -1,0 +1,12 @@
+{
+  "name": "treebots-worker",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "TreeBots cloud worker — runs real Minecraft bots (mineflayer) and reconciles with the TreeBots control plane.",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "mineflayer": "^4.20.1"
+  }
